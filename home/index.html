@@ -7,11 +7,7 @@
     </head>
 
     <body>
-        <script>
-          alert("test1") // test1
-          let imported = fetch('../navwrapper.html').then(item => alert(item)).catch(msg => alert(msg))
-          alert("test2")
-        </script>
+        <iframe src="../navwrapper.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
         <article>
             <section class="content">
                 <h1 id = "title"> Restaurant Delicaato </h1>
