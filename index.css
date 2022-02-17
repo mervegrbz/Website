@@ -5,9 +5,15 @@
 
 .button {
     background-color: blue;
-    text-color: yellow;
+    color: yellow;
     font-size: 24px;
     padding: 5px;
+    border-size: 2px;
+    border-style: outset;
+}
+
+.button:pressed {
+    border-style: inset;
 }
 
 #decoration__stripLeft, #decoration__stripRight {
@@ -64,7 +70,7 @@ li {
     padding: 0;
 }
 
-a:hover {
+.button:hover {
     color: brown;
     background-color: aqua;
 }
