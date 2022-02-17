@@ -1,3 +1,6 @@
+export let navwrapper = 
+`
+
 <nav class="navwrapper">
     <ul class="nav">
         <li>
@@ -30,3 +33,5 @@
         </li>
     </ul>
 </nav>
+
+`
