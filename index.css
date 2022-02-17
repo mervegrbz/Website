@@ -25,6 +25,10 @@
     background-color: red;
 }
 
+#decoration {
+    height: 100%;
+}
+
 #decoration__stripLeft, #decoration__stripRight {
     position: absolute;
     background-color: blue;
