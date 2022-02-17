@@ -10,9 +10,10 @@
     padding: 5px;
     border-size: 2px;
     border-style: outset;
+    border-color: black;
 }
 
-.button:pressed {
+.button:active {
     border-style: inset;
 }
 
