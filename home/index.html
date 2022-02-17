@@ -7,40 +7,8 @@
     </head>
 
     <body>
-        <nav class="navwrapper">
-            <ul class="nav">
-                <li>
-                    <img src="../logo.png" alt="company logo: consists of ice cream" id = "logo">
-                </li>
-                <li>
-                    <a href="../home/index.html" class="button">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="../aboutUs/index.html" class="button">
-                        About us
-                    </a>
-                </li>
-                <li>
-                    <a href="../menu/index.html" class="button">
-                        Menu
-                    </a>
-                </li>
-                <li>
-                    <a href="../contactUs/index.html" class="button">
-                        Contact us
-                    </a>
-                </li>
-                <li>
-                    <a href="../locations/index.html" class="button"> 
-                        Locations
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <iframe src="/navwrapper.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
         <article>
-            <script>alert("test")</script>
             <section class="content">
                 <h1 id = "title"> Restaurant Delicaato </h1>
                 <h2 id = "title__sub"> Welcome! Your #1 icecream seller!!! <h2>
