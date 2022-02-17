@@ -15,7 +15,7 @@
 
 .button:active {
     border-style: inset;
-    background-color: grey;
+    background-color: red;
 }
 
 #decoration__stripLeft, #decoration__stripRight {
