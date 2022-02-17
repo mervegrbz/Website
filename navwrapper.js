@@ -1,4 +1,4 @@
-let navwrapper = 
+export let navwrapper = 
 `
 
 <nav class="navwrapper">
