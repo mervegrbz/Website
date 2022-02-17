@@ -31,7 +31,7 @@
 
 #decoration__stripLeft, #decoration__stripRight {
     position: absolute;
-    background-color: blue;
+    background-color: pink;
     width: 120px;
     height: 100%;
     z-index: -1;
