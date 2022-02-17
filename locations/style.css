@@ -1,0 +1,19 @@
+#decoration__stripLeft, #decoration__stripRight {
+    position: absolute;
+    background-color: blue;
+    width: 120px;
+    height: 100%;
+    z-index: -1;
+    background-image: url("logo.png");
+    background-repeat: repeat-xy;
+}
+
+#decoration__stripRight {
+    right: 0px;
+}
+
+#title {
+    color: yellow;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px red;
+}
