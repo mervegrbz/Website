@@ -8,9 +8,8 @@
 
     <body>
         <script>    
-          let imported = fetch("../navwrapper.html")
+          let imported = fetch("../navwrapper.html").then(item => alert(item))
           alert("test")
-          alert(navwrapper)   
         </script>
         <article>
             <section class="content">
