@@ -1,4 +1,4 @@
-export let navwrapper = 
+let navwrapper = 
 `
 
 <nav class="navwrapper">
@@ -35,3 +35,5 @@ export let navwrapper =
 </nav>
 
 `
+
+default export navwrapper
