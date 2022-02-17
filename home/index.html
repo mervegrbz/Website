@@ -9,8 +9,8 @@
     <body>
         <script>
           alert("test1") // test1
-          let imported = fetch('../navwrapper.html').then(item => alert(item))
-          alert(imported)
+          let imported = fetch('../navwrapper.html').then(item => alert(item)).catch(msg => alert(msg))
+          alert("test2")
         </script>
         <article>
             <section class="content">
