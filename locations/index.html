@@ -1,44 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ice cream</title>
+        <title> Delicaato Ice Cream / Locations </title>
         <link rel="stylesheet" href="../index.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <nav class="navwrapper">
-            <ul class="nav">
-                <li>
-                    <img src="../logo.png" alt="company logo: consists of ice cream" id = "logo">
-                </li>
-                <li>
-                    <a href="../home/index.html" class="button">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="../aboutUs/index.html" class="button">
-                        About us
-                    </a>
-                </li>
-                <li>
-                    <a href="../menu/index.html" class="button">
-                        Menu
-                    </a>
-                </li>
-                <li>
-                    <a href="../contactUs/index.html" class="button">
-                        Contact us
-                    </a>
-                </li>
-                <li>
-                    <a href="../locations/index.html" class="button"> 
-                        Locations
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <iframe src="../navwrapper.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
         <article>
             <section class="content">
                 <h1> Locations </h1>
@@ -50,18 +19,7 @@
                 </ul>
             </section>
         </article>
-        <footer>
-    <p>Copyright © 2022 Ice Cream. All rights reserved.</p>
-    <ul class="footerList">
-        <li>
-            Instagram
-        </li>
-        <li>
-            Facebook
-        </li>
-    </ul>
-
-        </footer>
+        <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
     </body>
     <header>
 
