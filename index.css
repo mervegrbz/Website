@@ -3,6 +3,13 @@
     height: 80%;
 }
 
+.button {
+    background-color: blue;
+    text-color: yellow;
+    font-size: 24px;
+    padding: 5px;
+}
+
 #decoration__stripLeft, #decoration__stripRight {
     position: absolute;
     background-color: blue;
