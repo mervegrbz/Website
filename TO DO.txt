@@ -1,0 +1,11 @@
+TO DO:
+- use <button> with or instead of <a> for navigation?
+- aria labels
+- alt attributes
+- keyboard focus on elements
+- make buttons equal size?
+- make navigation fit between side decorations. Possibly put the side decorations in flexbox?
+- page location indicator on navigation buttons
+- fix buttons stuck on hover color when clicked
+- css variables for more dynamicness
+- better class names
