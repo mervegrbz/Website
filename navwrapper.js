@@ -36,4 +36,4 @@ let navwrapper =
 
 `
 
-default export navwrapper
+export default navwrapper
