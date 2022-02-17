@@ -35,6 +35,7 @@ body{
 .navwrapper{
     background-color: #FBAA76 !important;
     height:50px;
+    position: fixed;
 }
 
 article{
