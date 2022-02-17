@@ -1,67 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>ice cream</title>
+        <link rel="stylesheet" href="../index.css">
+    </head>
 
-<head>
-    <title>ice cream</title>
-    <link rel="stylesheet" href="../index.css">
-
-</head>
-
-<body>
-    <nav class="navwrapper">
-        <ul class="nav">
-            <li>
-                <img src="../logo.png" alt="company logo: consists of ice cream" id = "logo">
-            </li>
-            <li>
-                <a href="../home/index.html" class="button">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="../aboutUs/index.html" class="button">
-                    About us
-                </a>
-            </li>
-            <li>
-                <a href="../menu/index.html" class="button">
-                    Menu
-                </a>
-            </li>
-            <li>
-                <a href="../contactUs/index.html" class="button">
-                    Contact us
-                </a>
-            </li>
-            <li>
-                <a href="../locations/index.html" class="button"> 
-                    Locations
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <article>
-        <section class="content">
-            <h1>Welcome to our ice cream world</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        
-        </section>
-    </article>
-    <footer>
-<p>Copyright © 2022 Ice Cream. All rights reserved.</p>
-<ul class="footerList">
-    <li>
-        Instagram
-    </li>
-    <li>
-        Facebook
-    </li>
-</ul>
-
-    </footer>
-</body>
-<header>
-
-</header>
-
+    <body>
+        <iframe src="../navwrapper.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+        <article>
+            <section class="content">
+                <h1>Welcome to our ice cream world</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </section>
+        </article>
+        <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+    </body>
+    
+    <header>
+    </header>
 </html>
