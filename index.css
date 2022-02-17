@@ -9,7 +9,7 @@
     width: 120px;
     height: 100%;
     z-index: -1;
-    background-image: url("/logo.png");
+    background-image: url("./logo.png");
     background-repeat: repeat-xy;
 }
 
