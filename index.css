@@ -26,7 +26,6 @@
 }
 
 #decoration {
-    position: absolute;
     height: 100%;
 }
 
@@ -45,6 +44,7 @@
 }
 
 body {
+    position: relative;
     display: block;
     margin:0;
 }
