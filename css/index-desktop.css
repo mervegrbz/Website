@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1200px) {
+        /*
+    *********************
+    Card styling
+    */
+
+    .menu{
+        width: 70%;
+        margin: 20px;
+        display: flex;
+    }
+
+    .menu__item{
+        width: 25%;
+        background-color: #77946b;
+        margin: 5px;
+    }
+
+    .menu__item img{
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .menu__item img{
+        margin: 10px;
+    }
+}

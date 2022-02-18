@@ -2,8 +2,11 @@
 <html>
     <head>
         <title> Delicaato Ice Cream / Menu </title>
+        <link rel="stylesheet" href="../css/index-mobile.css">
+        <link rel="stylesheet" href="../css/index-desktop.css">
+        <link rel="stylesheet" href="../css/index-tablet.css">
         <link rel="stylesheet" href="../index.css">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
@@ -37,9 +40,9 @@
         <article class="ingredients-overview">
             <table>
                 <tr><th>Icon</th><th>Allergie</th></tr>
-                <tr><td><span class="dot__red"></span></td><td>Allergie</td></tr>
-                <tr><td><span class="dot__green"></span></td><td>Allergie</td></tr>
-                <tr><td><span class="dot__blue"></span></td><td>Allergie</td></tr>
+                <tr><td><span class="dot dot__red"></span></td><td>Allergie</td></tr>
+                <tr><td><span class="dot dot__green"></span></td><td>Allergie</td></tr>
+                <tr><td><span class="dot dot__blue"></span></td><td>Allergie</td></tr>
             </table>
         </article>
         <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
