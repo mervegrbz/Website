@@ -4,7 +4,7 @@
 
 body {
     position: relative;
-    overflow: auto;
+    height: max-content;
     display: block;
     margin: 0;
 }
