@@ -2,6 +2,12 @@
 @import "desktop.css";
 @import "tablet.css";
 
+body {
+    position: relative;
+    display: inline-block;
+    margin:0;
+}
+
 #title {
     font-family: Helvetica, sans-serif;
     font-size: 25px;
