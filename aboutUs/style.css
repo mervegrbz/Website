@@ -1,3 +1,5 @@
 #love-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  background-clip: text;
+  text-fill-color: transparent;
 }
