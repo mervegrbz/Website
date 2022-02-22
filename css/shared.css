@@ -11,10 +11,11 @@
 
 #introduction {
     color: rgb(0, 255, 0);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
-    border-size: 3px;
-    border-radius: 5px;
+    border-size: 2px;
+    border-radius: 10px;
+    border-color: blue;
     text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
     font-size: 24px;
 }
