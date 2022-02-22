@@ -9,5 +9,5 @@ TO DO:
 - fix buttons stuck on hover color when clicked
 - css variables for more dynamicness
 - better class names
-- use viewport or font-relative units
+- use viewport or font-relative units for position and size
 - if you use media queries, use it for the desktop. Mobile css should be default.
