@@ -1,27 +1,33 @@
 @keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-  20%{color: red;}
-  30%{color: CadetBlue;}
-  40%{color: yellow;}
-  50%{color: coral;}
-  60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-  100%{color: orange;}
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
 }
 
 #love {
-  width: auto;
-  height: 100%;
+    width: auto;
+    height: 100%;
 }
 
 #love-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  background-clip: text;
-  text-fill-color: transparent;
-  font-size: 40px;
-  animation: rainbow 5s infinite;
-  text-shadow: 2px 2px 8px #000000;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 40px;
+    animation: rainbow 5s infinite;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.content {
+    background-image: url("love-background.png");
+    background-repeat: repeat-xy;
+    opacity: 0.6
 }
