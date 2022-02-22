@@ -10,7 +10,8 @@
 }
 
 #introduction {
-    color: pink;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.7);
     text-shadow: 0px 0px 3px blue, 0px 0px 3px blue, 0px 0px 3px blue, 0px 0px 2px blue, 0px 0px 2px blue, 0px 0px 2px blue, 0px 0px 2px blue, 0px 0px 2px blue;
     font-size: 24px;
 }
