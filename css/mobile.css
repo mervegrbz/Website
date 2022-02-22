@@ -2,7 +2,6 @@ body {
     position: relative;
     display: block;
     margin:0;
-    padding: 20px;
 }
 
 /*
@@ -96,7 +95,7 @@ li {
 .content {
     width: 90%;
     height: auto;
-    margin: 20px;
+    padding: 20px;
     background-color: #CAE4BF;
     display: flex;
     flex-direction: column;
