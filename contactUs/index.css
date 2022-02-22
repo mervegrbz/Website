@@ -1,0 +1,39 @@
+.map{
+    padding-left:5%;
+    padding-right:5%;
+    display:flex;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.general{
+    display:flex;
+    width:90% ;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-direction: row; 
+    
+}
+.title{
+    margin:auto;
+    font-size: 30px;
+    margin-top:20px;
+}
+.address{
+    margin-left:30px;
+}
+.row{
+   
+}
+input,textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.form{
+    
+    width:100%  !important;
+}
