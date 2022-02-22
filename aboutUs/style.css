@@ -12,6 +12,11 @@
   100%{color: orange;}
 }
 
+#love {
+  width: auto;
+  height: 100%;
+}
+
 #love-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   background-clip: text;
