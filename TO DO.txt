@@ -9,3 +9,4 @@ TO DO:
 - fix buttons stuck on hover color when clicked
 - css variables for more dynamicness
 - better class names
+- use viewport or font-relative units
