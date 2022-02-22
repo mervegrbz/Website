@@ -21,7 +21,7 @@
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     background-clip: text;
     text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 80px;
     animation: rainbow 5s infinite;
     text-shadow: 2px 2px 8px #000000;
 }
