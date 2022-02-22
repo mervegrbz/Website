@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Delicaato Ice Cream / Contact Us </title>
-        <link rel="stylesheet" href="../css/index-mobile.css">
-        <link rel="stylesheet" href="../css/index-desktop.css">
-        <link rel="stylesheet" href="../css/index-tablet.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
 
-    <body>
-        <iframe src="../decoration.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
-        <iframe src="../navigation.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
-        <article>
-            <section class="content">
-                <h1>Welcome to our ice cream world</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<head>
+    <title> Delicaato Ice Cream / Contact Us </title>
+    <link rel="stylesheet" href="../css/index-mobile.css">
+    <link rel="stylesheet" href="../css/index-desktop.css">
+    <link rel="stylesheet" href="../css/index-tablet.css">
+    <link rel="stylesheet" href="./contactUs.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <iframe src="../decoration.html" style="display: none;"
+        onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+    <iframe src="../navigation.html" style="display: none;"
+        onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+    <article>
+        <section class="content">
+            <h1 class="title">Our Location</h1>
+            <section class="general">
+
+                <article class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4903.096119213965!2d5.122467778667363!3d52.08795651129267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f51a0834b67%3A0x5a551eab603f8058!2sNieuwegracht-Oost%2C%20Utrecht!5e0!3m2!1str!2snl!4v1645536100909!5m2!1str!2snl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <acticle class="address">
+                        <h2>Address</h2>
+                        <p> 3581 BE Utrecht</p>
+                        <p>No:55 </p>
+                        <p>Phone: 31643447623</p>
+                    </acticle>
+                </article>
+                <article class="form">
+                    <form>
+                        <div class="row">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="row">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                        <div class="row">
+                            <label for="email">Your Email </label>
+                            <input type="email" id="email" name="firstname" placeholder="Your email..">
+                        </div>
+                        <div class="row">
+                            <label for="subject">Subject </label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+
+                        </div>
+                    </form>
+                </article>
             </section>
-        </article>
-        <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
-    </body>
-    
-    <header>
-    </header>
+        </section>
+    </article>
+    <iframe src="../footer.html" style="display: none;"
+        onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+</body>
+
+<header>
+</header>
+
 </html>
