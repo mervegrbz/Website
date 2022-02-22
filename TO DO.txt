@@ -10,3 +10,4 @@ TO DO:
 - css variables for more dynamicness
 - better class names
 - use viewport or font-relative units
+- if you use media queries, use it for the desktop. Mobile css should be default.
