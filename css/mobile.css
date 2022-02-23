@@ -54,7 +54,7 @@ side bar*/
 #decoration__stripLeft, #decoration__stripRight {
     position: absolute;
     background-color: pink;
-    width: 120px;
+    width: 5%;
     height: 100%;
     z-index: -1;
     background-image: url("../logo.png");
