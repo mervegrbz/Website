@@ -4,12 +4,13 @@ TO DO:
 - alt attributes
 - keyboard focus on elements
 - make buttons equal size?
-- make navigation fit between side decorations. Possibly put the side decorations in flexbox?
+- make navigation and content fit between side decorations. Possibly put the side decorations in flexbox?
 - page location indicator on navigation buttons
 - fix buttons stuck on hover color when clicked
 - css variables for more dynamicness
 - better class names
 - use viewport or font-relative units for position and size
 - if you use media queries, use it for the desktop. Mobile css should be default.
+- desktop/mobile/tablet layouts
 - the "secrets" page images need to fit their parent container
-- form needs validators for each field
+- form needs validators for email field
