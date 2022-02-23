@@ -23,6 +23,7 @@ Navigation bar*/
 }
 
 nav .button {
+    text-decoration: none;
     background-color: blue;
     color: yellow;
     font-size: 24px;
