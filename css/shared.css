@@ -2,6 +2,20 @@
 @import "desktop.css";
 @import "tablet.css";
 
+@keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}
+
 body {
     position: relative;
     height: max-content;
@@ -26,4 +40,13 @@ body {
     border-style: dashed;
     text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
     font-size: 24px;
+}
+
+.rainbow-animation {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 80px;
+    animation: rainbow 5s infinite;
+    text-shadow: 2px 2px 8px #000000;
 }
