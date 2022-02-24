@@ -112,7 +112,8 @@ footer {
     height: 50px;
     position: relative;
     margin-top: 50px;
-    -webkit-text-stroke: 0.4px white;
+    -webkit-text-stroke: 0.4px black;
+    color: white;
 }
 
 .footerList {
