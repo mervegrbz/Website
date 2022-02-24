@@ -73,7 +73,7 @@ side bar*/
 article {
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: fit-content;
     padding: 50px 0px 0px 0px;
 }
 
