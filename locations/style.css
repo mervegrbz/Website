@@ -30,3 +30,7 @@ td {
     border-bottom-color: white;
     margin: 0px;
 }
+
+th {
+    text-align: left;
+}
