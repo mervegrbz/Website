@@ -25,7 +25,7 @@
 
 td {
     border-bottom-width: 2px;
-    border-style: solid;
-    border-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: white;
     margin: 0px;
 }
