@@ -15,9 +15,6 @@ Navigation bar*/
     height: 50px;
     width: 100%;
     position: fixed;
-    background-image: url("../navigation-background.png");
-    background-repeat: repeat-xy;
-    background-size: 5vmin 5vmin;
 }
 
 #logo {
@@ -128,6 +125,11 @@ ul li {
     margin-left: 5px;
 }
 
+.navwrapper, .footer {
+    background-image: url("../rhombus-background.png");
+    background-repeat: repeat-xy;
+    background-size: 5vmin 5vmin;
+}
 
 /*
 *********************
