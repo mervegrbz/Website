@@ -22,3 +22,7 @@
     border-color: red;
     border-style: dashed;
 }
+
+.adress td {
+    border-width: 2px;
+}
