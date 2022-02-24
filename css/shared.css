@@ -18,7 +18,7 @@
 
 body {
     position: relative;
-    height: max-content;
+    height: fit-content;
     display: block;
     margin: 0;
 }
