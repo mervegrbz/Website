@@ -17,4 +17,8 @@
 .address {
     margin-left: 30px;
     padding: 10px;
+    border-width = 2px;
+    border-radius = 5px;
+    border-color: red;
+    border-style: dashed;
 }
