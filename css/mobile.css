@@ -81,7 +81,7 @@ a {
     width: 100%;
     height: 100%;
     display: inline;
-    background: rgb(0, 229, 255);
+    text-color: rgb(0, 229, 255);
 }
 
 li {
