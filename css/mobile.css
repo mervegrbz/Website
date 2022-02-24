@@ -112,7 +112,7 @@ footer {
     height: 50px;
     position: relative;
     margin-top: 50px;
-    -webkit-text-stroke: 0.6px black;
+    -webkit-text-stroke: 1.5px black;
     color: white;
     font-size: 25px;
 }
