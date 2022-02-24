@@ -94,7 +94,7 @@ li {
     background-color: #CAE4BF;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
 }
 
