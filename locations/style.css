@@ -13,25 +13,3 @@
     font-size: 30px;
     margin-top: 20px;
 }
-
-.address {
-    align-self: start;
-    margin-top: 30px;
-    padding: 10px;
-    border-width: 2px;
-    border-radius: 20px;
-    border-color: red;
-    border-style: dashed;
-    background: rgba(0, 229, 255, 0.3);
-}
-
-td {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: white;
-    margin: 0px;
-}
-
-th {
-    text-align: left;
-}
