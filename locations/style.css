@@ -23,7 +23,7 @@
     border-style: dashed;
 }
 
-.adress td, .adress tr {
+.adress td {
     border-width: 2px;
     border-style: solid;
     border-color: white;
