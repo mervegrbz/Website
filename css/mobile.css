@@ -1,48 +1,58 @@
 /*
+General layout stuff
+*********************
+*/
+html{
+    font-size: 55%;
+}
+/*
 *********************
 Navigation bar*/
-.nav {
-    display:flex;
-    list-style-type: none;
-    align-items:center;
-    justify-content: space-around;
-    height:50px;
-    margin-top: 0;
-}
-
-.navwrapper {
-    background-color: #FBAA76 !important;
-    height: 50px;
-    width: 100%;
+.header{
+    background: var(--iceCreamCone);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-bottom: var(--border);
     position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
-#logo {
-    width: 80%;
-    height: 80%;
+.header .logo{
+    height: 6rem;
 }
 
-nav .button {
-    text-decoration: none;
-    background-color: blue;
-    color: yellow;
-    font-size: 24px;
-    padding: 5px;
-    text-align: center;
+.header .navbar .button{
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    background: var(--background);
+    opacity: 1;
+    font-size: 2rem;
     border-width: 2px;
     border-style: outset;
     border-color: black;
     border-radius: 5px;
+    white-space: normal;
 }
 
-nav .button:hover {
-    color: brown;
-    background-color: aqua;
+.header .navbar .button:hover {
+    background-color: var(--pistache);
 }
 
-nav .button:active {
-    border-style: inset;
-    background-color: red;
+.header .icons div{
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: var(--pistache);
 }
 
 /*
@@ -50,53 +60,100 @@ nav .button:active {
 side bar*/
 #decoration {
     height: 100%;
+    display: none;
+}
+/*
+Main content
+*/
+.main{
+    margin: 9rem;
+    min-height: 100vh;
+    align-items: center;
+    background-color: var(--background);
 }
 
-#decoration__stripLeft, #decoration__stripRight {
-    position: absolute;
-    background-color: pink;
-    width: 5%;
-    height: 100%;
-    z-index: -1;
-    background-image: url("../logo.png");
-    background-repeat: repeat-xy;
+.main .introduction{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-#decoration__stripRight {
-    right: 0px;
+.main .introduction article{
+    max-width: 60rem;
+}
+
+.main .introduction article h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6rem;
+}
+
+/*
+Card layout
+******************
+*/
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.card-container .card{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+    background: var(--pistache);
+}
+
+.card-container .card img{
+    height: 10rem;
 }
 
 #form__submitButton {
     font-size: 30px;
 }
 
-article {
+/**
+Row layout
+*/
+
+.row-container{
     display: flex;
     justify-content: center;
-    height: 900px;
-    padding: 50px 0px 0px 0px;
 }
 
-a {
+.row-container h3{
     width: 100%;
-    height: 100%;
-    display: inline;
+    text-align: center;
+    font-size: 3rem;
+    color:#fff;
 }
 
-li {
-    padding: 0;
-}
-
-.content {
-    width: 80%;
-    height: auto;
-    padding: 40px;
-    background-color: #CAE4BF;
+.row-container .row{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;    
 }
+
+.row-container .row .visual{
+    flex:1 1 45rem;
+}
+
+.row .content{
+    flex:1 1 45rem;
+    padding: 2rem;
+}
+
+.row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+
+
+
 
 /*
 *********************
@@ -108,9 +165,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     background-color: #FBAA76 !important;
-    height: 50px;
     position: relative;
-    margin-top: 50px;
 }
 
 .footerList {
@@ -121,39 +176,9 @@ footer {
     height: 50px;  
 }
 
-ul li {
-    margin-left: 5px;
-}
-
-.navwrapper, footer {
+.header, footer {
     background-image: url("../rhombus-background.png");
     background-repeat: repeat-xy;
     background-size: 5vmin 5vmin;
 }
 
-/*
-*********************
-Card styling
-*/
-
-.menu{
-    width: 100%;
-    margin: 20px;
-    display: flex;
-}
-
-.menu__item{
-    width: 100%;
-    align-items:center;
-    background-color: #77946b;
-    margin: 5px;
-}
-
-.menu__item img{
-    max-width: 100%;
-    margin: 10px;
-}
-
-.menu__item img{
-    margin: 10px;
-}

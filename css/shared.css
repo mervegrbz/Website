@@ -2,6 +2,82 @@
 @import "desktop.css";
 @import "tablet.css";
 
+:root{
+    --background: rgba(223, 223, 223, 0.9);
+    --iceCreamCone: #FBAA76 ;
+    --pistache: #CAE4BF;
+    --border: .1rem solid rgba(255,255,255,0.3);
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9 rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--background);
+}
+
+article{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+table{
+    white-space: nowrap;
+    background-color: white;
+}
+
+table th, table td{
+    text-align: center;
+    padding: 8px;
+}
+
+table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+table thead th {
+    color: #ffffff;
+    background: var(--pistache);
+}
+
+
+table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: var(--iceCreamCone);
+}
+
+table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
 @keyframes rainbow{
     0%{color: orange;}	
     10%{color: purple;}	
@@ -16,13 +92,6 @@
     100%{color: orange;}
 }
 
-body {
-    position: relative;
-    height: max-content;
-    display: block;
-    margin: 0;
-}
-
 #title {
     font-family: Helvetica, sans-serif;
     font-size: 25px;
@@ -30,7 +99,7 @@ body {
     color: yellow;
 }
 
-#introduction {
+#home-introduction {
     color: rgb(0, 255, 0);
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -45,7 +114,7 @@ body {
 .rainbow-animation {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     background-clip: text;
-    text-fill-color: transparent;
+    color: transparent;
     font-size: 80px;
     animation: rainbow 20s infinite;
     text-shadow: 2px 2px 8px #000000;

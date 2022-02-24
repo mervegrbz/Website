@@ -1,27 +1,31 @@
 @media only screen and (min-width: 1200px) {
-        /*
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 9 rem;
+        scroll-behavior: smooth;
+    }
+
+    .main{
+        margin-left: 10vw;
+        max-width: 80vw;
+    }
+
+    #decoration__stripLeft, #decoration__stripRight {
+        width: 10vw;
+    }
+
+
+    /*
+    Navigation bar
     *********************
-    Card styling
     */
-
-    .menu{
-        width: 70%;
-        margin: 20px;
-        display: flex;
+    .header{
+        padding: 1.5rem 7%;
     }
 
-    .menu__item{
-        width: 25%;
-        background-color: #77946b;
-        margin: 5px;
-    }
-
-    .menu__item img{
-        max-width: 100%;
-        margin: 10px;
-    }
-
-    .menu__item img{
-        margin: 10px;
+    .header .navbar a{
+        margin: 0 1rem;
+        font-size: 1.6rem;
     }
 }

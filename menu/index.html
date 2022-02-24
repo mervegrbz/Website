@@ -3,47 +3,63 @@
     <head>
         <title> Delicaato Ice Cream / Menu </title>
         <link rel="stylesheet" href="../css/shared.css">
+        <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
-        <iframe src="../decoration.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
         <iframe src="../navigation.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
-        <article>
-            <section class="content">
-                <h1 id="title">
-                    <u> Ice creams </u>
-                </h1>
-                <p id="introduction"> Explore our icecreams! </p>
+        <iframe src="../decoration.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+        <main class="main">
+            <section class="introduction">
+                <article>
+                    <h1 id="title">
+                        <u> Ice creams </u>
+                    </h1>
+                    <p id="introduction"> Explore our icecreams! </p>
+                </article>
             </section>
-        </article>
-        <article class = "menu">
-            <section class="menu__item">
-                <img src="./images/example_icecream1.png" alt="Ice Cream">
-                <p>Just some nice ice cream</p>
-                <p>Allergies: <span class="dot__red"></span></p>
+            <section class="card-container">
+                <article class="card">
+                    <img src="./images/example_icecream1.png" alt="Ice Cream">
+                    <p>Just some nice ice cream</p>
+                    <p>Allergies: <span class="dot__red"></span></p>
+                </article>
+                <article class="card">
+                    <img src="./images/example_icecream1.png" alt="Ice Cream">
+                    <p>Just some nice ice cream</p>
+                    <p>Allergies: <span class="dot__red"></span></p>
+                </article>
+                <article class="card">
+                    <img src="./images/example_icecream1.png" alt="Ice Cream">
+                    <p>Just some nice ice cream</p>
+                    <p>Allergies: <span class="dot__red"></span></p>
+                </article>
+                <article class="card">
+                    <img src="./images/example_icecream1.png" alt="Ice Cream">
+                    <p>Just some nice ice cream</p>
+                    <p>Allergies: <span class="dot__red"></span></p>
+                </article>
             </section>
-            <section class="menu__item">
-                <img src="./images/example_icecream1.png" alt="Ice Cream">
-                <p>Just some nice ice cream</p>
-            </section>
-            <section class="menu__item">
-                <img src="./images/example_icecream1.png" alt="Ice Cream">
-                <p>Just some nice ice cream</p>
-            </section>
-            <section class="menu__item">
-                <img src="./images/example_icecream1.png" alt="Ice Cream">
-                <p>Just some nice ice cream</p>
-            </section>
-        </article>
-        <article class="ingredients-overview">
-            <table>
-                <tr><th>Icon</th><th>Allergie</th></tr>
-                <tr><td><span class="dot dot__red"></span></td><td>Allergie</td></tr>
-                <tr><td><span class="dot dot__green"></span></td><td>Allergie</td></tr>
-                <tr><td><span class="dot dot__blue"></span></td><td>Allergie</td></tr>
-            </table>
-        </article>
+            <article class="ingredients-overview row-container">
+                <h3>Allergy Information</h3>
+                <div class="row">
+                    <section class="visual">
+                        <table>
+                            <thead><th>Icon</th><th>Allergie</th></tr></thead>
+                            <tbody>
+                                <tr><td><span class="dot dot__red"></span></td><td>Allergy</td></tr>
+                                <tr><td><span class="dot dot__green"></span></td><td>Allergy</td></tr>
+                                <tr><td><span class="dot dot__blue"></span></td><td>Allergy</td></tr>
+                            </tbody>                    
+                        </table>
+                    </section>
+                    <section class="content">
+                        <p>Here is some information about how we make ice cream, and are carefull with allergies.</p>
+                    </section>
+                </div>
+            </article>
+        </main>
         <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
     </body>
     <header>
