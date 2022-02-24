@@ -14,3 +14,4 @@ TO DO:
 - desktop/mobile/tablet layouts
 - the "secrets" page images need to fit their parent container
 - form needs validators for email field
+- SEO
