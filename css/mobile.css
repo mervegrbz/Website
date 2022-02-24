@@ -12,11 +12,12 @@ Navigation bar*/
 
 .navwrapper {
     background-color: #FBAA76 !important;
-    height:50px;
+    height: 50px;
     width: 100%;
     position: fixed;
     background-image: url("../navigation-background.png");
     background-repeat: repeat-xy;
+    background-size: 5% 5%;
 }
 
 #logo {
