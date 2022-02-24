@@ -115,7 +115,7 @@ Card layout
 
 /**
 Row layout
-*/
+*//*
 
 .row-container{
     display: flex;
@@ -135,6 +135,8 @@ Row layout
     display: inline;
     color: rgb(0, 229, 255);
 }
+
+*/
 
 li {
     padding: 0;
