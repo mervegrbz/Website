@@ -99,7 +99,8 @@ table tr:nth-child(even) {
     color: yellow;
 }
 
-#home-introduction {
+#introduction {
+    align-self: stretch;
     color: rgb(0, 255, 0);
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;

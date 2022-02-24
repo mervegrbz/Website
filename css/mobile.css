@@ -131,6 +131,23 @@ Row layout
 
 .row-container .row{
     display: flex;
+    height: 100%;
+    display: inline;
+    color: rgb(0, 229, 255);
+}
+
+li {
+    padding: 0;
+}
+
+.content {
+    width: 80%;
+    height: fit-content;
+    padding: 40px;
+    background-color: #CAE4BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
     flex-wrap: wrap;    
 }
@@ -155,6 +172,29 @@ Row layout
 
 
 
+.table {
+    align-self: start;
+    margin-top: 30px;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: red;
+    border-style: dashed;
+    background: rgba(0, 229, 255, 0.3);
+}
+
+.table__cell {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    margin: 0px;
+}
+
+.table__header {
+    text-align: left;
+}
+
+
 /*
 *********************
 Footer styling
@@ -166,6 +206,11 @@ footer {
     justify-content: space-around;
     background-color: #FBAA76 !important;
     position: relative;
+    margin-top: 50px;
+    -webkit-text-stroke: 1px black;
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .footerList {
