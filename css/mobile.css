@@ -89,7 +89,7 @@ li {
 
 .content {
     width: 80%;
-    height: auto;
+    height: fit-content;
     padding: 40px;
     background-color: #CAE4BF;
     display: flex;
