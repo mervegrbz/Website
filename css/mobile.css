@@ -138,6 +138,7 @@ footer {
     -webkit-text-stroke: 1px black;
     color: white;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .footerList {
