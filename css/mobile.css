@@ -96,6 +96,11 @@ side bar*/
     height: 100%;
     display: none;
 }
+
+#decoration__stripLeft, #decoration__stripRight {
+    width: 10vmin;
+}
+
 /*
 Main content
 */
