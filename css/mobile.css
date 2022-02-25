@@ -153,6 +153,7 @@ Card layout
     background: var(--iceCreamCone);
     margin-top: 4rem;
     padding: 1rem;
+    border-radius: 1.5rem;
     width: 100%;
 }
 /**
@@ -183,6 +184,11 @@ Row layout
     display: flex;
     justify-content: center;
     flex: 1 1 45rem;
+}
+
+.row-container .row .visual img{
+    max-width: 100%;
+    height: auto;
 }
 
 .row-container .row .content{
@@ -279,7 +285,8 @@ footer {
     list-style-type: none;
     align-items: center;
     justify-content: space-around;
-    height: 50px;  
+    word-wrap: keep-all ;
+    white-space: nowrap;
 }
 
 .header, footer {

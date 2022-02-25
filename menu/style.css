@@ -3,6 +3,7 @@
     width: 15px;
     border-radius: 50%;
     display: inline-block;
+    margin: 0 0.5rem;
   }
 
 .dot__red {
@@ -10,14 +11,30 @@
 }
 
 .dot__green{
-    background-color: blue;
-}
-
-.dot__blue{
     background-color: green;
 }
 
+.dot__blue{
+    background-color: blue;
+}
 
+.dot__yellow{
+    background-color: yellow;
+}
+
+.iceCreamMenu .card{
+    background-color: pink;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+}
+
+.iceCreamMenu .card:hover{
+    opacity: 1;
+}
+
+.iceCreamMenu .card p{
+    margin: 0.5rem 0;   
+}
 
 
 
