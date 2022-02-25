@@ -132,6 +132,14 @@ Card layout
     font-size: 30px;
 }
 
+.textbox{
+    text-align: center;
+    color: black;
+    background: var(--iceCreamCone);
+    margin-top: 4rem;
+    padding:1rem;
+    width: 100%;
+}
 /**
 Row layout
 */
@@ -143,6 +151,12 @@ Row layout
     color:#fff;
 }
 
+.row-container h5{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+}
 .row-container .row{
     display: flex;
     color: rgb(0, 229, 255);
@@ -153,7 +167,7 @@ Row layout
 .row-container .row .visual{
     display: flex;
     justify-content: center;
-    flex: 1 1 45 rem;
+    flex: 1 1 45rem;
 }
 
 .row-container .row .content{
@@ -163,6 +177,7 @@ Row layout
 
 .row-container .row .content p{
     text-align: center;
+    white-space: n  owrap;
     color: black;
 }
 
