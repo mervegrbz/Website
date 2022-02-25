@@ -12,17 +12,14 @@
 
 /* Keyboard focus style */
 
-*:focus:not(.focus-visible) {
-  outline: none;
+* :focus-visible {
+  outline: blue solid 3px;
 }
 
-.focus-visible {
-  outline: lightgreen solid 3px;
-}
 /*******************************************/
 
 
-*{
+* {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
