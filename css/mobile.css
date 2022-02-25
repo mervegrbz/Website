@@ -203,6 +203,7 @@ Row layout
     display: flex;
     justify-content: center;
     flex: 1 1 30rem;
+    min-width: 45rem;
 }
 
 .row-container .row .visual img{
@@ -214,6 +215,7 @@ Row layout
     flex: 1 1 30rem;
     padding: 2rem;
     white-space: nowrap;
+    min-width: 45rem;
 }
 
 .row-container .row .content p{
