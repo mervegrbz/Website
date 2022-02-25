@@ -5,5 +5,7 @@
 }
 
 .row-container {
-    outline: 1.4rem;
+    outline-width: 1.4rem;
+    outline-style: solid;
+    outline-color: black;
 }
