@@ -11,6 +11,7 @@ html{
     min-height: 100vh;
     align-items: center;
     background-color: var(--background);
+    padding: 1px;
 }
 
 .main-container{
@@ -18,11 +19,13 @@ html{
     display: flex;
     justify-content: center;
     background: var(--background);
+    padding: 1px;
 }
 
 .content-container{
     width: 100%;
-    margin: 3rem 0rem;
+    margin: 2rem 0rem;
+    padding: 1px;
     background: var(--pistache);
 }
 /*
@@ -57,7 +60,8 @@ Navigation bar*/
     border-style: outset;
     border-color: black;
     border-radius: 5px;
-    white-space: normal;
+    word-wrap: keep-all ;
+    white-space: nowrap;
 }
 
 .header .navbar .button:hover {
@@ -162,29 +166,19 @@ Row layout
     color: black;
 }
 
-li {
-    padding: 0;
-}
-
-.content {
-    width: 80%;
-    height: fit-content;
-    padding: 40px;
-    background-color: #CAE4BF;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;    
-}
-
 .row-container .row .visual{
     flex:1 1 45rem;
+    padding: 1px;
 }
 
 .row .content{
     flex:1 1 45rem;
     padding: 2rem;
+    white-space: nowrap;
+}
+
+.row .content h3{
+    word-wrap: break-word;
 }
 
 .row .content p{
@@ -195,29 +189,11 @@ li {
 }
 
 
-
-
-
-.table {
-    align-self: start;
-    margin-top: 30px;
-    padding: 10px;
-    border-width: 2px;
-    border-radius: 20px;
-    border-color: red;
-    border-style: dashed;
-    background: rgba(0, 229, 255, 0.3);
-}
-
-.table__cell {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: white;
-    margin: 0px;
-}
-
-.table__header {
-    text-align: left;
+/*
+Responsive Table
+*/
+.table-wrapper{
+    overflow: auto;
 }
 
 
@@ -225,6 +201,35 @@ li {
 *********************
 Footer styling
 */
+.fa {
+    padding: 1rem;
+    font-size: 2rem;
+    width: 4rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
 footer {
     display: flex;
     list-style-type: none;

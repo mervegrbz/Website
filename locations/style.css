@@ -1,13 +1,3 @@
-.map {
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-    justify-content: flex-start !important;
-    align-items: flex-start;
-    flex-direction: column;
-
-}
-
 .title {
     margin:auto;
     font-size: 30px;

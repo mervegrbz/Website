@@ -40,13 +40,28 @@ section{
     padding: 2rem 7%;
 }
 
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    overflow: auto;
+}
+
 table{
     white-space: nowrap;
-    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: red;
+    border-style: dashed;
+    background: rgba(0, 229, 255, 0.3);
 }
 
 table th, table td{
     text-align: center;
+    color: white;
     padding: 8px;
 }
 
@@ -68,6 +83,11 @@ table thead th:nth-child(odd) {
 
 table tr:nth-child(even) {
     background: #F8F8F8;
+    color: black;
+}
+
+table tr:nth-child(even) td{
+    color: black;
 }
 
 
