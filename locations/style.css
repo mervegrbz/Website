@@ -3,3 +3,7 @@
     font-size: 30px;
     margin-top: 20px;
 }
+
+.row-container {
+    outline: 1.4rem;
+}
