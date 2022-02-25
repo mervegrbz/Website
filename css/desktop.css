@@ -16,10 +16,6 @@
         background: var(--pistache);
     }
 
-    #decoration__stripLeft, #decoration__stripRight {
-        width: 10vw;
-    }
-
 
     /*
     Navigation bar
