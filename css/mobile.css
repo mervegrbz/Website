@@ -32,7 +32,7 @@ html{
 *********************
 Navigation bar*/
 
-.nav {
+.navbar {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -62,6 +62,7 @@ Navigation bar*/
     padding: 0.5rem;
     font-size: 1.6rem;
     background: rgb(0, 0, 255);
+    color: yellow;
     opacity: 1;
     font-size: 2rem;
     border-width: 2px;
