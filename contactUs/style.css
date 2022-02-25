@@ -15,6 +15,10 @@ input, textarea {
   resize: vertical;
 }
 
+.row {
+    text-color: black; !important;
+}
+
 .form {
     
     width:100%  !important;
