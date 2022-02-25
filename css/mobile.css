@@ -94,7 +94,6 @@ Navigation bar*/
 side bar*/
 #decoration {
     height: 100%;
-    display: none;
 }
 
 #decoration__stripLeft, #decoration__stripRight {
