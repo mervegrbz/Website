@@ -61,7 +61,7 @@ Navigation bar*/
     margin: 0 1rem;
     padding: 0.5rem;
     font-size: 1.6rem;
-    background: var(--background);
+    background: rgb(0, 0, 255);
     opacity: 1;
     font-size: 2rem;
     border-width: 2px;
