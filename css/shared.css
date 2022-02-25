@@ -4,17 +4,21 @@
 
 :root{
     --background: white;
-    --iceCreamCone: #FBAA76 ;
+    --iceCreamCone: #FBAA76;
     --pistache: #CAE4BF;
-    --border: .1rem solid rgba(255,255,255,0.3);
+    --border: .1rem solid rgba(255, 255, 255, 0.3);
 }
 
 
 /* Keyboard focus style */
 
-* :focus-visible {
+* focus-visible {
     outline: red solid 4px;
-    text-shadow: 0px 0px 5px red, 0px 0px 5px red, 0px 0px 3px red, 0px 0px 5px red;
+}
+
+/* Input is not allowed to have a shadow, otherwise the placeholder text becomes unreadable. */
+* :not(input):focus-visible {
+    text-shadow: 0px 0px 5px red, 0px 0px 5px red, 0px 0px 5px red, 0px 0px 5px red;
 }
 
 /*******************************************/
