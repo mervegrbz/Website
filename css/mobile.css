@@ -23,6 +23,7 @@ html{
 }
 
 .content-container{
+    flex-grow: 1;
     width: 100%;
     margin: 2rem 0rem;
     padding: 1px;
