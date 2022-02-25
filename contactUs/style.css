@@ -16,7 +16,7 @@ input, textarea {
 }
 
 .row {
-    color: black;
+    color: black !important;
 }
 
 .form {
