@@ -12,11 +12,14 @@
         /*
     *********************
     side bar*/
-        #decoration {
-        display: block;
-        height: 200%;
+    #decoration {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
-
+    
     #decoration__stripLeft, #decoration__stripRight {
         position: absolute;
         background-color: pink;
