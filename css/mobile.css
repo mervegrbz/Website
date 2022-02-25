@@ -182,6 +182,8 @@ Row layout
 .row-container h3{
     width: 100%;
     text-align: center;
+    white-space: normal;
+    overflow-wrap: break-word;
     font-size: 3rem;
     color:#fff;
 }
@@ -189,6 +191,8 @@ Row layout
 .row-container h5{
     width: 100%;
     text-align: center;
+    overflow-wrap: break-word;
+    white-space: normal;
     font-size: 2rem;
     color:#fff;
 }
@@ -214,13 +218,11 @@ Row layout
 .row-container .row .content{
     flex: 1 1 30rem;
     padding: 2rem;
-    white-space: nowrap;
     min-width: 45rem;
 }
 
 .row-container .row .content p{
     text-align: center;
-    white-space: n  owrap;
     color: black;
 }
 

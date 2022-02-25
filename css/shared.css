@@ -33,6 +33,7 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
+    overflow-wrap: break-word;
 }
 
 html{
