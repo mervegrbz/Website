@@ -13,7 +13,8 @@
 /* Keyboard focus style */
 
 * :focus-visible {
-  outline: blue solid 3px;
+  outline: red solid 4px;
+  text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 3px black, 0px 0px 5px black
 }
 
 /*******************************************/
