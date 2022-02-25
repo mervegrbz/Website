@@ -295,11 +295,8 @@ footer {
 }
 
 .footercontainer .copyright {
+    text-align: center;
     margin-left: 1rem;
-}
-
-.footercontainer .socials{
-    width: 100%;
 }
 
 .footerList {
