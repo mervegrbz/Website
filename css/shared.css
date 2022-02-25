@@ -116,9 +116,9 @@ table tr:nth-child(even) td{
 }
 
 #title {
-    margin: 4rem;
+    margin: 3rem;
     font-family: Helvetica, sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     text-shadow: 2px 2px 3px red;
     color: yellow;
 }
