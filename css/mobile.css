@@ -45,7 +45,7 @@ Navigation bar*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0.5rem;
     border-bottom: var(--border);
     position: fixed;
     top: 0; 
