@@ -37,6 +37,7 @@ Navigation bar*/
     justify-content: space-evenly;
     width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .header{
