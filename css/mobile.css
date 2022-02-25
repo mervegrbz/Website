@@ -6,8 +6,8 @@ html{
     font-size: 55%;
 }
 
-.main{
-    margin: 9rem 9rem 0 9rem;
+.main{   
+    margin: 9rem 1rem;
     min-height: 100vh;
     align-items: center;
     background-color: var(--background);
@@ -153,11 +153,20 @@ Card layout
 
 .textbox{
     text-align: center;
+    word-break: normal;
+    white-space: normal;
     color: black;
     background: var(--iceCreamCone);
-    margin-top: 4rem;
+    margin-top: 5rem;
     padding: 1rem;
     border-radius: 1.5rem;
+    width: 100%;
+}
+
+.textbox p{
+    text-align: center;
+    word-break: normal;
+    white-space: normal;
     width: 100%;
 }
 /**
@@ -187,7 +196,7 @@ Row layout
 .row-container .row .visual{
     display: flex;
     justify-content: center;
-    flex: 1 1 45rem;
+    flex: 1 1 30rem;
 }
 
 .row-container .row .visual img{
@@ -196,25 +205,15 @@ Row layout
 }
 
 .row-container .row .content{
-    flex: 1 1 45rem;
+    flex: 1 1 30rem;
     padding: 2rem;
+    white-space: nowrap;
 }
 
 .row-container .row .content p{
     text-align: center;
     white-space: n  owrap;
     color: black;
-}
-
-.row-container .row .visual{
-    flex:1 1 45rem;
-    padding: 1px;
-}
-
-.row .content{
-    flex:1 1 45rem;
-    padding: 2rem;
-    white-space: nowrap;
 }
 
 .row .content h3{
@@ -241,6 +240,8 @@ Responsive Table
 *********************
 Footer styling
 */
+
+/*Social icons styling*/
 .fa {
     padding: 1rem;
     font-size: 2rem;
@@ -269,26 +270,36 @@ Footer styling
     color: white;
   }
 
-
+/* footer bar styling */
 footer {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: space-around;
     background-color: #FBAA76 !important;
-    position: relative;
-    margin: 0;
     -webkit-text-stroke: 1px black;
     color: yellow;
     font-size: 25px;
     font-weight: bold;
 }
 
-.footerList {
+.footercontainer{
     display: flex;
-    list-style-type: none;
     align-items: center;
     justify-content: space-around;
+}
+
+.footercontainer .copyright {
+    margin-left: 1rem;
+}
+
+.footercontainer .socials{
+    display: block;
+    width: 100%;
+}
+
+.footerList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
     word-wrap: keep-all ;
     white-space: nowrap;
 }
