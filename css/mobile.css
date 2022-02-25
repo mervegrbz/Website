@@ -60,7 +60,7 @@ Navigation bar*/
 }
 
 .header .navbar .button{
-    margin: 0 1rem;
+    margin: .5rem 1rem;
     padding: 0.5rem;
     font-size: 1.6rem;
     background: rgb(0, 0, 255);
