@@ -17,7 +17,7 @@
 }
 
 /* Input is not allowed to have a shadow, otherwise the placeholder text becomes unreadable. */
-* :not(input):focus-visible {
+* :not(.keyboard-focus-no-shadow):focus-visible {
     text-shadow: 0px 0px 5px red, 0px 0px 5px red, 0px 0px 5px red, 0px 0px 5px red;
 }
 
