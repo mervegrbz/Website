@@ -93,8 +93,12 @@ Navigation bar*/
 *********************
 side bar*/
 #decoration {
+    pointer-events: none;
+    width: 100%;
     height: 100%;
-    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #decoration__stripLeft, #decoration__stripRight {
