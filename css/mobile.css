@@ -115,12 +115,7 @@ Card layout
 
 /**
 Row layout
-*//*
-
-.row-container{
-    display: flex;
-    justify-content: center;
-}
+*/
 
 .row-container h3{
     width: 100%;
@@ -131,12 +126,26 @@ Row layout
 
 .row-container .row{
     display: flex;
-    height: 100%;
-    display: inline;
     color: rgb(0, 229, 255);
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-*/
+.row-container .row .visual{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 45 rem;
+}
+
+.row-container .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.row-container .row .content p{
+    text-align: center;
+    color: black;
+}
 
 li {
     padding: 0;
