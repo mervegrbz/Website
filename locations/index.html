@@ -9,53 +9,54 @@
 
     <body>
         <iframe src="../decoration.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
-        <iframe src="../navigation.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
         <main class="main">
-            <section class="introduction">
-                <article>
-                    <h1 id="title">
-                        <u> Our Location </u>
-                    </h1>
-                    <p id="introduction"> We're located at: Nieuwegracht-Oost, Utrecht; you can view the place on the map below. </p>
-                </article>
-            </section>
-            <section class="row-container">
-                <h3>Some header</h3>
-                <div class="row">
-                    <section class="visual">
-                        <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4903.096119213965!2d5.122467778667363!3d52.08795651129267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f51a0834b67%3A0x5a551eab603f8058!2sNieuwegracht-Oost%2C%20Utrecht!5e0!3m2!1str!2snl!4v1645536100909!5m2!1str!2snl"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="../navigation.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
+            <div class="main-container">
+                <div class="content-container">
+                    <section class="introduction">
+                        <article>
+                            <h1 id="title">
+                                <u> Our Location </u>
+                            </h1>
+                            <p id="introduction"> We're located at: Nieuwegracht-Oost, Utrecht; you can view the place on the map below. </p>
+                        </article>
                     </section>
-                    <section class="visual">
-                        <table class="table whoWhatWhere">
-                            <th class="table__header"> <u> Who, what, where: </u> </th>
-                            <tr>
-                                <td class="table__cell">
-                                    <h2> Restaurant nickname: </h2>
-                                </td>
-                                <td class="table__cell"> Delicaato-Op-z'n-Grachts </td>
-                            </tr>
-                            <tr>
-                                <td class="table__cell">
-                                    <h2> Address: </h2>
-                                </td>
-                                <td class="table__cell"> 3581 BE Utrecht </td>
-                            </tr>
-                            <tr>
-                                <td class="table__cell"> 
-                                    <h2> Country: </h2> 
-                                </td>
-                                <td class="table__cell"> The Netherlands </td>
-                            </tr>
-                        </table>
+                    <section class="row-container">
+                        <h3>Some header</h3>
+                        <div class="row">
+                            <section class="visual">
+                                <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4903.096119213965!2d5.122467778667363!3d52.08795651129267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f51a0834b67%3A0x5a551eab603f8058!2sNieuwegracht-Oost%2C%20Utrecht!5e0!3m2!1str!2snl!4v1645536100909!5m2!1str!2snl"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </section>
+                            <section class="visual">
+                                <table class="table whoWhatWhere">
+                                    <th class="table__header"> <u> Who, what, where: </u> </th>
+                                    <tr>
+                                        <td class="table__cell">
+                                            <h2> Restaurant nickname: </h2>
+                                        </td>
+                                        <td class="table__cell"> Delicaato-Op-z'n-Grachts </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__cell">
+                                            <h2> Address: </h2>
+                                        </td>
+                                        <td class="table__cell"> 3581 BE Utrecht </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__cell"> 
+                                            <h2> Country: </h2> 
+                                        </td>
+                                        <td class="table__cell"> The Netherlands </td>
+                                    </tr>
+                                </table>
+                            </section>
+                        </div>
                     </section>
                 </div>
-            </section>
+            </div>
         </main>
         <iframe src="../footer.html" style="display: none;" onload="this.before(this.contentDocument.body.children[0]); this.remove();"></iframe>
     </body>
-    <header>
-
-    </header>
 </html>
