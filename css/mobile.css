@@ -202,13 +202,13 @@ Row layout
     color: rgb(0, 229, 255);
     align-items: center;
     flex-wrap: wrap;
+    padding: 1px;
 }
 
 .row-container .row .visual{
-    display: flex;
-    justify-content: center;
     flex: 1 1 30rem;
-    min-width: 45rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
 }
 
 .row-container .row .visual img{
@@ -218,8 +218,8 @@ Row layout
 
 .row-container .row .content{
     flex: 1 1 30rem;
-    padding: 2rem;
-    min-width: 45rem;
+    padding: 2rem 1rem;
+    max-width: 100%;
 }
 
 .row-container .row .content p{
@@ -243,6 +243,7 @@ Row layout
 Responsive Table
 */
 .table-wrapper{
+    content: "hrizontal scrollible >>";
     overflow: auto;
 }
 
