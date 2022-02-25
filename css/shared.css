@@ -9,6 +9,19 @@
     --border: .1rem solid rgba(255,255,255,0.3);
 }
 
+
+/* Keyboard focus style */
+
+*:focus:not(.focus-visible) {
+  outline: none;
+}
+
+.focus-visible {
+  outline: lightgreen solid 3px;
+}
+/*******************************************/
+
+
 *{
     font-family: sans-serif;
     margin: 0;
