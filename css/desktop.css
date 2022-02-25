@@ -33,4 +33,9 @@
         margin: 0 1rem;
         font-size: 1.6rem;
     }
+    
+    .header .navbar .button{
+        padding: 1rem 2rem;
+        font-size: 2rem;
+    }
 }
